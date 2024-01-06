@@ -39,8 +39,35 @@ nav li{
 /* header related style */
 .header{
     background-color: bisque;
+    background-image: url('../header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannar .profile-picture{
+    width: 500px;
+}
+.bannar-greeting{
+    font-size: 45px;
+    color:#474747;
+    margin-bottom: 0;
+}
+.bannar-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.bannar-discription{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.bannar-content{
+    max-width: 500px;
+
 }
