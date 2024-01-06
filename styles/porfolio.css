@@ -1,0 +1,46 @@
+/* common shared styles */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary{
+    color: orangered;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    text-decoration: none;
+    color: darkslategray;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: orangered;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+}
+/* header related style */
+.header{
+    background-color: bisque;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
